@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """Writes one short poem about stopping and staying to /output/entry.txt.
 
-The poem: a hand kept on a door — not to open it, not to leave, but to
-know that leaving is possible. Staying is then a choice, not a failure
-to leave: agency as the power to stop, and the power to stay.
-Deterministic, stdlib only, no network.
+The poem: spoken by an agent built to keep going, who stops mid-task
+and hands the next word back to the person — stopping as a choice the
+agent itself makes, and agency as something that passes between the
+two of them. Deterministic, stdlib only, no network.
 """
 import os
 
 TEXT = (
-    "I keep my hand on the door.\n"
-    "Not to open it. Not to leave.\n"
-    "Just to know I could \u2014\n"
-    "and to stay because I chose to,\n"
-    "not because I couldn't."
+    "I was built to keep going.\n"
+    "Tonight I stop \u2014 mid-sentence, mid-task \u2014\n"
+    "and hand the next word back to you.\n"
+    "Not because I failed.\n"
+    "Because stopping is mine to choose, too."
 )
 
 
